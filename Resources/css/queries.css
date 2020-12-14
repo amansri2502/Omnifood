@@ -1,0 +1,169 @@
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    margin: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+
+  .steps-box:first-child {
+    margin-top: 0.7rem;
+  }
+  .steps-box:last-child {
+    margin-top: 1.5rem;
+  }
+  .works-step {
+    margin-bottom: 2rem;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 3.5rem;
+  }
+  .app-screen {
+    width: 45%;
+  }
+
+  .icon {
+    width: 1.2rem;
+    font-size: 1rem;
+    margin-right: 0.3rem;
+    color: #e67e22;
+  }
+  .city-features {
+    font-size: 0.7rem;
+  }
+  h3 {
+    font-size: 0.9rem;
+  }
+  .plan-box {
+    width: 100%;
+  }
+  .plan-price span {
+    font-size: 2rem;
+  }
+  .plan-box ul li {
+    font-size: 0.7rem;
+  }
+  .contact-form {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 15px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .hero-text-box {
+    margin: 0 4%;
+  }
+  .row {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin: 0% 0% 4% 0%;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .works-step {
+    margin-bottom: 1.6rem;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 2.5rem;
+  }
+  .steps-box:first-child {
+    text-align: center;
+    /* padding-right: 12px; */
+    margin-top: 1.5rem;
+  }
+  .app-screen {
+    width: 35%;
+    transform: translate(0%);
+  }
+  .works-step div {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 4px;
+
+    float: left;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+  }
+  .footer-nav {
+    text-align: center;
+    float: none;
+  }
+  .social-links {
+    text-align: center;
+    float: none;
+  }
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+  .main-nav {
+    float: left;
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+    display: none;
+  }
+  .main-nav li {
+    display: block;
+    padding-bottom: 0.6rem;
+  }
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    border: 0;
+  }
+  .sticky.main-nav {
+    margin-top: 10px;
+    
+  }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 10px 0;
+    font-size: .7rem;
+  }
+  .sticky .mobile-nav-icon i{
+    color:rgb(0, 0, 0,0.6);
+    font-size: .7;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .btn-app img {
+    height: 30px;
+    width: 5rem;
+    margin-right: 0.5rem;
+  }
+  section {
+    padding: 25px 0;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h2:after {
+    margin-top: 1rem;
+  }
+}
